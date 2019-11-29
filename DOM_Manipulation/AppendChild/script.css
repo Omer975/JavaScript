@@ -1,0 +1,10 @@
+//Create a new in-memory `P` element
+//Then append it to the page's `BODY`
+
+const p = document.createElement('p')
+
+p.innerHTML = 'This text is from JS'
+document.body.appendChild(p)
+
+//const target = document.body
+//target.appendChild(p)
